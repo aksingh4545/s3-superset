@@ -88,7 +88,7 @@ source-etl-file-ak45
 
 These files typically contain uncleaned data and are not suitable for direct analytics.
 
-📸 *Raw data stored in S3*
+<img src="screenshots/source_etl.png" width="700"/>
 
 ---
 
@@ -109,7 +109,7 @@ An AWS Glue ETL job performs the core data processing tasks.
 * Automatic scaling
 * Native integration with AWS analytics stack
 
-📸 *Glue ETL job configuration*
+<img src="screenshots/etl_job.png" width="700"/>
 
 ---
 
@@ -163,7 +163,7 @@ FROM student_performance
 GROUP BY gender;
 ```
 
-📸 *Athena query execution and results*
+<img src="screenshots/athena_query_result.png" width="700"/>
 
 ---
 
@@ -230,7 +230,9 @@ Dashboards include:
 * Trend analysis
 * Category-based aggregations
 
-📸 *Superset dashboards*
+<img src="screenshots/superset_dash1.png" width="700"/>
+<img src="screenshots/superset_dash2.png" width="700"/>
+<img src="screenshots/superset_dash3.png" width="700"/>
 
 ---
 
@@ -249,7 +251,7 @@ def lambda_handler(event, context):
 ```
 
 This removes the need for manual job execution.
-
+<img src="screenshots/lambda_fun.png" width="700"/>
 ---
 
 ## 🔁 End-to-End Flow Summary
